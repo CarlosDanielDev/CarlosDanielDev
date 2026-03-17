@@ -151,28 +151,18 @@ journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
 
 ## 📊 GitHub Stats
 
+<!-- Generated automatically by GitHub Actions — see .github/workflows/metrics.yml -->
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Contributions-2,543_this_year-70A5FD?style=for-the-badge&logo=github&logoColor=white" alt="Contributions"/>
-  <img src="https://img.shields.io/badge/Total_Repos-182_(incl._private)-70A5FD?style=for-the-badge&logo=github&logoColor=white" alt="Repos"/>
-  <img src="https://img.shields.io/badge/Stars-71-70A5FD?style=for-the-badge&logo=github&logoColor=white" alt="Stars"/>
-  <img src="https://img.shields.io/badge/Since-2017-70A5FD?style=for-the-badge&logo=github&logoColor=white" alt="Since"/>
+  <img src="github-stats.svg" alt="GitHub Stats" />
 </p>
 
-**Languages across all repos** (public + private, excluding forks):
-
-```text
-Swift          ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░  34.3%
-TypeScript     ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░  33.4%
-JavaScript     █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  28.6%
-C++            █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.7%
-Elixir         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.3%
-Lua            ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%
-Rust           ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%
-```
+<p align="center">
+  <img src="github-languages.svg" alt="Most Used Languages" />
+</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Current_Streak-44_days-FF6B35?style=for-the-badge&logo=fire&logoColor=white" alt="Current Streak"/>
-  <img src="https://img.shields.io/badge/Longest_Streak-44_days-FF6B35?style=for-the-badge&logo=fire&logoColor=white" alt="Longest Streak"/>
+  <img src="github-streak.svg" alt="Contribution Calendar" />
 </p>
 
 <br/>
