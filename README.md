@@ -153,14 +153,14 @@ journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=CarlosDanielDev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=CarlosDanielDev&show_icons=true&theme=default&hide_border=true&count_private=true" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=CarlosDanielDev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=CarlosDanielDev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&hide=issues&bg_color=00000000" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=CarlosDanielDev&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&hide=issues" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=CarlosDanielDev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&hide=issues" alt="GitHub Stats"/>
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=CarlosDanielDev&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=CarlosDanielDev&layout=compact&theme=default&hide_border=true" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CarlosDanielDev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=CarlosDanielDev&layout=compact&theme=tokyonight&hide_border=true&hide=css,html,shell&langs_count=8&bg_color=00000000" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=CarlosDanielDev&layout=compact&theme=default&hide_border=true&hide=css,html,shell&langs_count=8" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CarlosDanielDev&layout=compact&theme=tokyonight&hide_border=true&hide=css,html,shell&langs_count=8" alt="Top Languages"/>
   </picture>
 </p>
 
