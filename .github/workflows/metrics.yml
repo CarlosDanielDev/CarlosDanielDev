@@ -8,24 +8,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  languages:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-languages.svg
-          user: CarlosDanielDev
-          template: classic
-          base: ""
-          plugin_languages: yes
-          plugin_languages_ignored: html, css, scss, shell, makefile, dockerfile, powershell
-          plugin_languages_limit: 8
-          plugin_languages_details: percentage
-          repositories_forks: no
-
   stats:
     runs-on: ubuntu-latest
     permissions:
@@ -55,3 +37,128 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+
+  languages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate languages SVG from GitHub API
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          gh api graphql -f query='{
+            viewer {
+              repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
+                nodes {
+                  languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+                    edges { size node { name } }
+                  }
+                }
+                pageInfo { hasNextPage endCursor }
+              }
+            }
+          }' > /tmp/p1.json
+
+          cursor=$(jq -r '.data.viewer.repositories.pageInfo.endCursor' /tmp/p1.json)
+          has_next=$(jq -r '.data.viewer.repositories.pageInfo.hasNextPage' /tmp/p1.json)
+
+          if [ "$has_next" = "true" ]; then
+            gh api graphql -f query="
+            {
+              viewer {
+                repositories(first: 100, ownerAffiliations: OWNER, isFork: false, after: \"$cursor\") {
+                  nodes {
+                    languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+                      edges { size node { name } }
+                    }
+                  }
+                }
+              }
+            }" > /tmp/p2.json
+          fi
+
+          python3 << 'PYEOF'
+          import json, os
+
+          exclude = {'HTML', 'CSS', 'SCSS', 'Shell', 'Makefile', 'Roff', 'VCL', 'Smarty',
+                     'Starlark', 'FreeMarker', 'Gherkin', 'PowerShell', 'Dockerfile',
+                     'AppleScript', 'Hack', 'Objective-C++'}
+
+          colors = {
+              'Swift': '#F05138', 'TypeScript': '#3178C6', 'JavaScript': '#F1E05A',
+              'C++': '#F34B7D', 'PHP': '#4F5D95', 'Java': '#B07219',
+              'Objective-C': '#438EFF', 'Elixir': '#6E4A7E', 'Ruby': '#701516',
+              'Lua': '#000080', 'Rust': '#DEA584', 'Python': '#3572A5',
+              'Go': '#00ADD8', 'Kotlin': '#A97BFF', 'C': '#555555',
+              'Vue': '#41B883',
+          }
+
+          langs = {}
+          for fname in ['/tmp/p1.json', '/tmp/p2.json']:
+              if not os.path.exists(fname):
+                  continue
+              data = json.load(open(fname))
+              for node in data['data']['viewer']['repositories']['nodes']:
+                  for edge in node['languages']['edges']:
+                      name = edge['node']['name']
+                      if name not in exclude:
+                          langs[name] = langs.get(name, 0) + edge['size']
+
+          total = sum(langs.values()) or 1
+          sorted_langs = sorted(langs.items(), key=lambda x: -x[1])[:8]
+
+          bar_w = 400
+          row_h = 22
+          rows = (len(sorted_langs) + 1) // 2
+          h = 48 + 16 + rows * row_h + 8
+
+          parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="480" height="{h}">',
+            '<style>',
+            '  text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b949e; }',
+            '  .t { font-size: 14px; fill: #58a6ff; font-weight: 600; }',
+            '  .l { font-size: 12px; }',
+            '</style>',
+            '<text x="20" y="28" class="t">Most Used Languages</text>',
+            '<text x="20" y="42" style="font-size:10px;fill:#666">across all repos (public + private, excl. forks)</text>',
+            f'<g transform="translate(40, 50)">']
+
+          # Bar
+          x = 0
+          for name, size in sorted_langs:
+              w = max((size / total) * bar_w, 3)
+              c = colors.get(name, '#8b8b8b')
+              r = '4 0 0 4' if x == 0 else ('0 4 4 0' if name == sorted_langs[-1][0] else '0')
+              parts.append(f'  <rect x="{x:.1f}" y="0" width="{w:.1f}" height="8" rx="{r}" fill="{c}"/>')
+              x += w
+
+          # Legend
+          col, row = 0, 0
+          for name, size in sorted_langs:
+              pct = (size / total) * 100
+              c = colors.get(name, '#8b8b8b')
+              lx, ly = col * 200, 22 + row * row_h
+              parts.append(f'  <circle cx="{lx}" cy="{ly}" r="5" fill="{c}"/>')
+              parts.append(f'  <text x="{lx+12}" y="{ly+4}" class="l">{name} <tspan fill="#666">{pct:.1f}%</tspan></text>')
+              col += 1
+              if col >= 2:
+                  col, row = 0, row + 1
+
+          parts.append('</g>')
+          parts.append('</svg>')
+
+          with open('github-languages.svg', 'w') as f:
+              f.write('\n'.join(parts))
+
+          for name, size in sorted_langs:
+              print(f"  {name}: {(size/total)*100:.1f}%")
+          PYEOF
+
+      - name: Commit languages SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-languages.svg
+          git diff --staged --quiet || (git commit -m "chore: update languages SVG" && git push)
