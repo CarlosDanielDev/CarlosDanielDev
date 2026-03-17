@@ -36,12 +36,11 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_ignored: html, css, scss, shell, makefile, dockerfile, powershell, starlark, smpl, roff, vcl, smarty, freemarker, gherkin, applescript, hack, objective-c++
           plugin_languages_limit: 8
-          plugin_languages_sections: most-used, recently-used
+          plugin_languages_sections: recently-used
           plugin_languages_details: percentage
           plugin_languages_threshold: 0%
-          plugin_languages_recent_load: 300
+          plugin_languages_recent_load: 500
           plugin_languages_recent_days: 365
-          plugin_languages_indepth: yes
           repositories_forks: no
           repositories_skipped: CarlosDanielDev/CarlosDanielDev
 
