@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://carlosdaniel.dev"><img src="https://img.shields.io/badge/Portfolio-carlosdaniel.dev-70A5FD?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://x.com/carlosdevdaniel"><img src="https://img.shields.io/badge/X-@carlosdevdaniel-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+  <a href="https://x.com/carlosdevdaniel"><img src="https://img.shields.io/badge/X-@carlosdevdaniel-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
   <a href="https://linkedin.com/in/carlos-daniel-3a5574142"><img src="https://img.shields.io/badge/LinkedIn-Carlos%20Daniel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:contact@carlosdaniel.dev"><img src="https://img.shields.io/badge/Email-contact@carlosdaniel.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
