@@ -152,17 +152,23 @@ journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
 ## 📊 GitHub Stats
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=CarlosDanielDev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&hide=issues&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=CarlosDanielDev&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true&hide=issues" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=CarlosDanielDev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&hide=issues" alt="GitHub Stats"/>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=CarlosDanielDev&layout=compact&theme=tokyonight&hide_border=true&hide=css,html,shell&langs_count=8&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=CarlosDanielDev&layout=compact&theme=default&hide_border=true&hide=css,html,shell&langs_count=8" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CarlosDanielDev&layout=compact&theme=tokyonight&hide_border=true&hide=css,html,shell&langs_count=8" alt="Top Languages"/>
-  </picture>
+  <img src="https://img.shields.io/badge/Contributions-2,543_this_year-70A5FD?style=for-the-badge&logo=github&logoColor=white" alt="Contributions"/>
+  <img src="https://img.shields.io/badge/Total_Repos-182_(incl._private)-70A5FD?style=for-the-badge&logo=github&logoColor=white" alt="Repos"/>
+  <img src="https://img.shields.io/badge/Stars-71-70A5FD?style=for-the-badge&logo=github&logoColor=white" alt="Stars"/>
+  <img src="https://img.shields.io/badge/Since-2017-70A5FD?style=for-the-badge&logo=github&logoColor=white" alt="Since"/>
 </p>
+
+**Languages across all repos** (public + private, excluding forks):
+
+```text
+Swift          ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░  34.3%
+TypeScript     ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░  33.4%
+JavaScript     █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  28.6%
+C++            █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.7%
+Elixir         ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.3%
+Lua            ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%
+Rust           ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.2%
+```
 
 <p align="center">
   <picture>
