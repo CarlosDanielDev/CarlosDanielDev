@@ -171,11 +171,8 @@ Rust           ░░░░░░░░░░░░░░░░░░░░░�
 ```
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=CarlosDanielDev&theme=tokyonight&hide_border=true&background=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=CarlosDanielDev&theme=default&hide_border=true" />
-    <img src="https://streak-stats.demolab.com/?user=CarlosDanielDev&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-  </picture>
+  <img src="https://img.shields.io/badge/Current_Streak-44_days-FF6B35?style=for-the-badge&logo=fire&logoColor=white" alt="Current Streak"/>
+  <img src="https://img.shields.io/badge/Longest_Streak-44_days-FF6B35?style=for-the-badge&logo=fire&logoColor=white" alt="Longest Streak"/>
 </p>
 
 <br/>
