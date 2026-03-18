@@ -7,9 +7,9 @@
 <text x="20" y="28" class="t">Most Used Languages</text>
 <text x="20" y="42" style="font-size:10px;fill:#666">across all repos (public + private, excl. forks)</text>
 <g transform="translate(40, 50)">
-  <rect x="0.0" y="0" width="137.1" height="8" rx="4 0 0 4" fill="#F05138"/>
-  <rect x="137.1" y="0" width="133.7" height="8" rx="0" fill="#3178C6"/>
-  <rect x="270.8" y="0" width="114.4" height="8" rx="0" fill="#F1E05A"/>
+  <rect x="0.0" y="0" width="137.3" height="8" rx="4 0 0 4" fill="#F05138"/>
+  <rect x="137.3" y="0" width="133.6" height="8" rx="0" fill="#3178C6"/>
+  <rect x="270.9" y="0" width="114.4" height="8" rx="0" fill="#F1E05A"/>
   <rect x="385.2" y="0" width="3.3" height="8" rx="0" fill="#B07219"/>
   <rect x="388.5" y="0" width="3.0" height="8" rx="0" fill="#F34B7D"/>
   <rect x="391.5" y="0" width="3.0" height="8" rx="0" fill="#4F5D95"/>
