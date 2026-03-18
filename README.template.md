@@ -17,7 +17,7 @@
 name: Carlos Daniel
 location: São Paulo, Brazil
 current_role: Software Engineer @ Kyte
-side_quest: Indie iOS Maker — 3 apps on the App Store
+side_quest: Indie iOS Maker — {{publishedCount}} apps on the App Store
 editor: Neovim (LazyVim)
 journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
 ```
@@ -26,37 +26,7 @@ journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
 
 ## :apple: Indie Apps
 
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <strong>BlockZero</strong><br/>
-      <sub>Experience 2048 Reimagined</sub><br/><br/>
-      <a href="https://apps.apple.com/us/app/block-zero/id6747401298"><img src="https://img.shields.io/badge/App_Store-Published-000000?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"/></a>
-    </td>
-    <td align="center" width="25%">
-      <strong>AquaBrew</strong><br/>
-      <sub>Find the perfect water for your coffee</sub><br/><br/>
-      <a href="https://apps.apple.com/us/app/aquabrew/id6758528433"><img src="https://img.shields.io/badge/App_Store-Published-000000?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"/></a>
-    </td>
-    <td align="center" width="25%">
-      <strong>Lucid Mate</strong><br/>
-      <sub>A fancy chess experience with real-time multiplayer</sub><br/><br/>
-      <img src="https://img.shields.io/badge/Status-Coming_Soon-yellow?style=for-the-badge" alt="Coming Soon"/>
-    </td>
-    <td align="center" width="25%">
-      <strong>Warranty Checker</strong><br/>
-      <sub>Scan. Track. Never Forget.</sub><br/><br/>
-      <a href="https://apps.apple.com/us/app/warranty-checker/id6759304054"><img src="https://img.shields.io/badge/App_Store-Published-000000?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="25%">
-      <strong>PulseLog</strong><br/>
-      <sub>Discover your energy patterns in 5 days</sub><br/><br/>
-      <img src="https://img.shields.io/badge/Status-Coming_Soon-yellow?style=for-the-badge" alt="Coming Soon"/>
-    </td>
-  </tr>
-</table>
+{{appsSection}}
 
 <br/>
 
