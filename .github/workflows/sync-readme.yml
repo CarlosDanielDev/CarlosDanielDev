@@ -21,6 +21,8 @@ jobs:
 
       - name: Generate README
         run: node scripts/generate-readme.mjs
+        env:
+          PORTFOLIO_TOKEN: ${{ secrets.PORTFOLIO_TOKEN }}
 
       - name: Commit if changed
         run: |
