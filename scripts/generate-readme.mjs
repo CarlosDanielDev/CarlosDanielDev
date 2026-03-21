@@ -6,7 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
 
 const APPS_JSON_URL =
-  'https://raw.githubusercontent.com/CarlosDanielDev/portfolio/main/public/apps.json';
+  'https://api.github.com/repos/CarlosDanielDev/portfolio/contents/public/apps.json?ref=main';
 
 const STATUS_BADGE = {
   published: (name, url) =>
@@ -41,8 +41,18 @@ function buildAppsSection(apps) {
 }
 
 async function main() {
-  console.log(`Fetching apps data from ${APPS_JSON_URL}...`);
-  const response = await fetch(APPS_JSON_URL);
+  const token = process.env.PORTFOLIO_TOKEN;
+  if (!token) {
+    throw new Error('PORTFOLIO_TOKEN environment variable is required');
+  }
+
+  console.log(`Fetching apps data from GitHub API...`);
+  const response = await fetch(APPS_JSON_URL, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: 'application/vnd.github.v3.raw',
+    },
+  });
 
   if (!response.ok) {
     throw new Error(`Failed to fetch apps.json: ${response.status} ${response.statusText}`);
