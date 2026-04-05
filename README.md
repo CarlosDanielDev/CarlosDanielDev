@@ -52,8 +52,8 @@ journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
   <tr>
     <td align="center" width="25%">
       <strong>PulseLog</strong><br/>
-      <sub>Discover your energy patterns in 5 days</sub><br/><br/>
-      <img src="https://img.shields.io/badge/Status-Coming_Soon-yellow?style=for-the-badge" alt="Coming Soon"/>
+      <sub>Know Your Energy. Own Your Day.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Status-In_Review-orange?style=for-the-badge" alt="In Review"/>
     </td>
   </tr>
 </table>
