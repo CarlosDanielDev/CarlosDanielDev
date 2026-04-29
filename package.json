@@ -1,0 +1,11 @@
+{
+  "name": "carlosdanieldev-profile",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "generate": "node scripts/generate-readme.mjs"
+  }
+}
