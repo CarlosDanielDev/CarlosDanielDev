@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "scripts": {
-    "generate": "node scripts/generate-readme.mjs"
+    "generate": "node scripts/generate-readme.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "test:py": "python3 scripts/generate-languages-svg.test.py"
   }
 }

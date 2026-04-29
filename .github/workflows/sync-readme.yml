@@ -23,6 +23,7 @@ jobs:
         run: node scripts/generate-readme.mjs
         env:
           PORTFOLIO_TOKEN: ${{ secrets.PORTFOLIO_TOKEN }}
+          PORTFOLIO_APPS_URL: ${{ vars.PORTFOLIO_APPS_URL }}
 
       - name: Commit if changed
         run: |

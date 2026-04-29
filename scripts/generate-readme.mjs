@@ -3,10 +3,11 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = resolve(__dirname, '..');
+const ROOT = process.env.README_ROOT || resolve(__dirname, '..');
 
-const APPS_JSON_URL =
+const DEFAULT_APPS_JSON_URL =
   'https://api.github.com/repos/CarlosDanielDev/portfolio/contents/public/apps.json?ref=main';
+const APPS_JSON_URL = process.env.PORTFOLIO_APPS_URL || DEFAULT_APPS_JSON_URL;
 
 const STATUS_BADGE = {
   published: (name, url) =>
@@ -59,6 +60,11 @@ async function main() {
   }
 
   const data = await response.json();
+  if (!Array.isArray(data?.apps)) {
+    throw new Error(
+      'Unexpected apps.json shape: ' + JSON.stringify(data).slice(0, 200)
+    );
+  }
   const apps = data.apps;
   console.log(`Fetched ${apps.length} apps (generated ${data.generatedAt})`);
 
