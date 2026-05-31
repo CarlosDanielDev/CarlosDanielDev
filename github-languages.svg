@@ -7,22 +7,22 @@
 <text x="20" y="28" class="t">Most Used Languages</text>
 <text x="20" y="42" style="font-size:10px;fill:#666">across all repos (public + private, excl. forks)</text>
 <g transform="translate(40, 50)">
-  <rect x="0.0" y="0" width="121.3" height="8" rx="4 0 0 4" fill="#F05138"/>
-  <rect x="121.3" y="0" width="89.9" height="8" rx="0" fill="#3178C6"/>
-  <rect x="211.2" y="0" width="87.4" height="8" rx="0" fill="#DEA584"/>
-  <rect x="298.6" y="0" width="80.2" height="8" rx="0" fill="#F1E05A"/>
-  <rect x="378.7" y="0" width="12.1" height="8" rx="0" fill="#F34B7D"/>
-  <rect x="390.8" y="0" width="3.0" height="8" rx="0" fill="#B07219"/>
-  <rect x="393.8" y="0" width="3.0" height="8" rx="0" fill="#4F5D95"/>
-  <rect x="396.8" y="0" width="3.0" height="8" rx="0 4 4 0" fill="#3572A5"/>
+  <rect x="0.0" y="0" width="120.0" height="8" rx="4 0 0 4" fill="#F05138"/>
+  <rect x="120.0" y="0" width="90.8" height="8" rx="0" fill="#DEA584"/>
+  <rect x="210.8" y="0" width="88.9" height="8" rx="0" fill="#3178C6"/>
+  <rect x="299.7" y="0" width="79.3" height="8" rx="0" fill="#F1E05A"/>
+  <rect x="379.0" y="0" width="12.0" height="8" rx="0" fill="#F34B7D"/>
+  <rect x="390.9" y="0" width="3.0" height="8" rx="0" fill="#B07219"/>
+  <rect x="393.9" y="0" width="3.0" height="8" rx="0" fill="#4F5D95"/>
+  <rect x="396.9" y="0" width="3.0" height="8" rx="0 4 4 0" fill="#3572A5"/>
   <circle cx="0" cy="22" r="5" fill="#F05138"/>
-  <text x="12" y="26" class="l">Swift <tspan fill="#666">30.3%</tspan></text>
-  <circle cx="200" cy="22" r="5" fill="#3178C6"/>
-  <text x="212" y="26" class="l">TypeScript <tspan fill="#666">22.5%</tspan></text>
-  <circle cx="0" cy="44" r="5" fill="#DEA584"/>
-  <text x="12" y="48" class="l">Rust <tspan fill="#666">21.8%</tspan></text>
+  <text x="12" y="26" class="l">Swift <tspan fill="#666">30.0%</tspan></text>
+  <circle cx="200" cy="22" r="5" fill="#DEA584"/>
+  <text x="212" y="26" class="l">Rust <tspan fill="#666">22.7%</tspan></text>
+  <circle cx="0" cy="44" r="5" fill="#3178C6"/>
+  <text x="12" y="48" class="l">TypeScript <tspan fill="#666">22.2%</tspan></text>
   <circle cx="200" cy="44" r="5" fill="#F1E05A"/>
-  <text x="212" y="48" class="l">JavaScript <tspan fill="#666">20.0%</tspan></text>
+  <text x="212" y="48" class="l">JavaScript <tspan fill="#666">19.8%</tspan></text>
   <circle cx="0" cy="66" r="5" fill="#F34B7D"/>
   <text x="12" y="70" class="l">C++ <tspan fill="#666">3.0%</tspan></text>
   <circle cx="200" cy="66" r="5" fill="#B07219"/>
