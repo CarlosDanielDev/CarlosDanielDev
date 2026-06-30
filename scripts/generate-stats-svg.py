@@ -135,8 +135,8 @@ def render_svg(s):
         f"  text {{ {FONT} }}",
         f"  .title {{ font-size: 20px; font-weight: 700; fill: {ACCENT}; }}",
         f"  .sub {{ font-size: 12px; fill: {DIM}; }}",
-        "  .num { font-size: 30px; font-weight: 700; fill: #e6edf3; }",
-        f"  .lbl {{ font-size: 12.5px; fill: {MUTED}; }}",
+        "  .num { font-size: 32px; font-weight: 700; fill: #e6edf3; text-anchor: middle; }",
+        f"  .lbl {{ font-size: 13px; fill: {MUTED}; text-anchor: middle; }}",
         "</style>",
         # card
         f'<rect x="0.5" y="0.5" width="{W - 1}" height="{height - 1}" rx="14" '
@@ -150,7 +150,7 @@ def render_svg(s):
 
     for i, (label, value) in enumerate(tiles):
         r, c = divmod(i, cols)
-        cx = PAD + c * col_w
+        cx = PAD + col_w * (c + 0.5)  # centered within each column
         cy = head_h + r * tile_h
         parts.append(f'<text x="{cx:.1f}" y="{cy + 34:.1f}" class="num">{value}</text>')
         parts.append(f'<text x="{cx:.1f}" y="{cy + 54:.1f}" class="lbl">{label}</text>')

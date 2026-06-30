@@ -9,29 +9,29 @@
   text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
   .title { font-size: 20px; font-weight: 700; fill: #70A5FD; }
   .sub { font-size: 12px; fill: #6e7681; }
-  .num { font-size: 30px; font-weight: 700; fill: #e6edf3; }
-  .lbl { font-size: 12.5px; fill: #8b949e; }
+  .num { font-size: 32px; font-weight: 700; fill: #e6edf3; text-anchor: middle; }
+  .lbl { font-size: 13px; fill: #8b949e; text-anchor: middle; }
 </style>
 <rect x="0.5" y="0.5" width="759" height="331" rx="14" fill="#0d1117" stroke="#30363d"/>
 <rect x="28" y="28" width="64" height="5" rx="2.5" fill="url(#g)"/>
 <text x="28" y="58" class="title">GitHub Stats</text>
 <text x="28" y="76" class="sub">Carlos Daniel &#183; on GitHub since 2017</text>
-<text x="28.0" y="104.0" class="num">6,229</text>
-<text x="28.0" y="124.0" class="lbl">Commits</text>
-<text x="262.7" y="104.0" class="num">839</text>
-<text x="262.7" y="124.0" class="lbl">Pull Requests</text>
-<text x="497.3" y="104.0" class="num">183</text>
-<text x="497.3" y="124.0" class="lbl">PRs Reviewed</text>
-<text x="28.0" y="182.0" class="num">1,222</text>
-<text x="28.0" y="202.0" class="lbl">Issues Opened</text>
-<text x="262.7" y="182.0" class="num">14</text>
-<text x="262.7" y="202.0" class="lbl">Repos Contributed</text>
-<text x="497.3" y="182.0" class="num">9</text>
-<text x="497.3" y="202.0" class="lbl">Years on GitHub</text>
-<text x="28.0" y="260.0" class="num">87</text>
-<text x="28.0" y="280.0" class="lbl">Followers</text>
-<text x="262.7" y="260.0" class="num">63</text>
-<text x="262.7" y="280.0" class="lbl">Following</text>
-<text x="497.3" y="260.0" class="num">157</text>
-<text x="497.3" y="280.0" class="lbl">Repos Starred</text>
+<text x="145.3" y="104.0" class="num">7,087</text>
+<text x="145.3" y="124.0" class="lbl">Commits</text>
+<text x="380.0" y="104.0" class="num">839</text>
+<text x="380.0" y="124.0" class="lbl">Pull Requests</text>
+<text x="614.7" y="104.0" class="num">103</text>
+<text x="614.7" y="124.0" class="lbl">PRs Reviewed</text>
+<text x="145.3" y="182.0" class="num">1,222</text>
+<text x="145.3" y="202.0" class="lbl">Issues Opened</text>
+<text x="380.0" y="182.0" class="num">14</text>
+<text x="380.0" y="202.0" class="lbl">Repos Contributed</text>
+<text x="614.7" y="182.0" class="num">9</text>
+<text x="614.7" y="202.0" class="lbl">Years on GitHub</text>
+<text x="145.3" y="260.0" class="num">87</text>
+<text x="145.3" y="280.0" class="lbl">Followers</text>
+<text x="380.0" y="260.0" class="num">63</text>
+<text x="380.0" y="280.0" class="lbl">Following</text>
+<text x="614.7" y="260.0" class="num">157</text>
+<text x="614.7" y="280.0" class="lbl">Repos Starred</text>
 </svg>

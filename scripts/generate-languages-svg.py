@@ -48,36 +48,55 @@ def collect_languages(paths):
 
 
 def render_svg(sorted_langs, total):
-    bar_w = 400
-    row_h = 22
+    W = 760
+    PAD = 28
+    inner = W - PAD * 2
+    head_h = 78
+    row_h = 30
     rows = (len(sorted_langs) + 1) // 2
-    height = 48 + 16 + rows * row_h + 8
+    height = head_h + rows * row_h + PAD
+    col_w = inner / 2
+    font = ('font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", '
+            "Helvetica, Arial, sans-serif;")
 
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="480" height="{height}">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" '
+        f'viewBox="0 0 {W} {height}" role="img" aria-label="Most used languages">',
+        "<defs>",
+        '  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">',
+        '    <stop offset="0" stop-color="#70A5FD"/>',
+        '    <stop offset="1" stop-color="#B388FF"/>',
+        "  </linearGradient>",
+        "</defs>",
         "<style>",
-        '  text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b949e; }',
-        "  .t { font-size: 14px; fill: #58a6ff; font-weight: 600; }",
-        "  .l { font-size: 12px; }",
+        f"  text {{ {font} fill: #8b949e; }}",
+        "  .t { font-size: 20px; fill: #70A5FD; font-weight: 700; }",
+        "  .sub { font-size: 12px; fill: #6e7681; }",
+        "  .l { font-size: 14px; }",
         "</style>",
-        '<text x="20" y="28" class="t">Most Used Languages</text>',
-        '<text x="20" y="42" style="font-size:10px;fill:#666">across all repos (public + private, excl. forks)</text>',
-        '<g transform="translate(40, 50)">',
+        f'<rect x="0.5" y="0.5" width="{W - 1}" height="{height - 1}" rx="14" '
+        'fill="#0d1117" stroke="#30363d"/>',
+        f'<rect x="{PAD}" y="{PAD}" width="64" height="5" rx="2.5" fill="url(#g)"/>',
+        f'<text x="{PAD}" y="{PAD + 30}" class="t">Most Used Languages</text>',
+        f'<text x="{PAD}" y="{PAD + 48}" class="sub">across all repos '
+        '(public + private, excl. forks)</text>',
+        f'<g transform="translate({PAD}, {head_h - 14})">',
     ]
 
     x = 0
     last_name = sorted_langs[-1][0] if sorted_langs else None
     for name, size in sorted_langs:
-        width = max((size / total) * bar_w, 3)
+        width = max((size / total) * inner, 4)
         color = COLORS.get(name, "#8b8b8b")
         if x == 0:
-            radius = "4 0 0 4"
+            radius = "7 0 0 7"
         elif name == last_name:
-            radius = "0 4 4 0"
+            radius = "0 7 7 0"
         else:
             radius = "0"
         parts.append(
-            f'  <rect x="{x:.1f}" y="0" width="{width:.1f}" height="8" rx="{radius}" fill="{color}"/>'
+            f'  <rect x="{x:.1f}" y="0" width="{width:.1f}" height="14" '
+            f'rx="{radius}" fill="{color}"/>'
         )
         x += width
 
@@ -85,10 +104,11 @@ def render_svg(sorted_langs, total):
     for name, size in sorted_langs:
         pct = (size / total) * 100
         color = COLORS.get(name, "#8b8b8b")
-        lx, ly = col * 200, 22 + row * row_h
-        parts.append(f'  <circle cx="{lx}" cy="{ly}" r="5" fill="{color}"/>')
+        lx, ly = col * col_w, 40 + row * row_h
+        parts.append(f'  <circle cx="{lx + 6}" cy="{ly}" r="6" fill="{color}"/>')
         parts.append(
-            f'  <text x="{lx + 12}" y="{ly + 4}" class="l">{name} <tspan fill="#666">{pct:.1f}%</tspan></text>'
+            f'  <text x="{lx + 20}" y="{ly + 5}" class="l">{name} '
+            f'<tspan fill="#6e7681">{pct:.1f}%</tspan></text>'
         )
         col += 1
         if col >= 2:
