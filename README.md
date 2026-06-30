@@ -78,6 +78,11 @@ journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
       <sub>Know Your Energy. Own Your Day.</sub><br/><br/>
       <a href="https://apps.apple.com/us/app/pulselog/id6760478587"><img src="https://img.shields.io/badge/App_Store-Published-000000?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"/></a>
     </td>
+    <td align="center" width="25%">
+      <strong>QRSafe</strong><br/>
+      <sub>Scan a QR code. Know if it's safe before you tap.</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Status-Coming_Soon-yellow?style=for-the-badge" alt="Coming Soon"/>
+    </td>
   </tr>
 </table>
 
