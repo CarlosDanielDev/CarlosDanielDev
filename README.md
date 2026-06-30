@@ -17,7 +17,7 @@
 name: Carlos Daniel
 location: São Paulo, Brazil
 current_role: Software Engineer @ Kyte
-side_quest: Indie iOS Maker — 3 apps on the App Store
+side_quest: Indie iOS Maker — 4 apps on the App Store
 editor: Neovim (LazyVim)
 journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
 ```
@@ -53,7 +53,7 @@ journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
     <td align="center" width="25%">
       <strong>PulseLog</strong><br/>
       <sub>Know Your Energy. Own Your Day.</sub><br/><br/>
-      <img src="https://img.shields.io/badge/Status-In_Review-orange?style=for-the-badge" alt="In Review"/>
+      <a href="https://apps.apple.com/us/app/pulselog/id6760478587"><img src="https://img.shields.io/badge/App_Store-Published-000000?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store"/></a>
     </td>
   </tr>
 </table>
