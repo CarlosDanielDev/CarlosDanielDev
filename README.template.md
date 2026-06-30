@@ -27,6 +27,7 @@
 
 - [:man_technologist: About Me](#man_technologist-about-me)
 - [:apple: Indie Apps](#apple-indie-apps)
+- [:rocket: Featured Projects](#rocket-featured-projects)
 - [:bar_chart: GitHub Stats](#bar_chart-github-stats)
 - [:hammer_and_wrench: Tech Stack](#hammer_and_wrench-tech-stack)
 - [:zap: Highlights](#zap-highlights)
@@ -49,6 +50,14 @@ journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
 ## :apple: Indie Apps
 
 {{appsSection}}
+
+<br/>
+
+## :rocket: Featured Projects
+
+<p align="center">
+  <img src="github-featured.svg" alt="Featured Projects" />
+</p>
 
 <br/>
 

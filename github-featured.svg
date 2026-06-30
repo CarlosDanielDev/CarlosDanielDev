@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="406" viewBox="0 0 760 406" role="img" aria-label="Featured projects">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#70A5FD"/>
+    <stop offset="1" stop-color="#B388FF"/>
+  </linearGradient>
+</defs>
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .t { font-size: 20px; fill: #70A5FD; font-weight: 700; }
+  .sub { font-size: 12px; fill: #6e7681; }
+  .repo { font-size: 15px; fill: #70A5FD; font-weight: 700; }
+  .desc { font-size: 12px; fill: #8b949e; }
+  .meta { font-size: 12px; fill: #6e7681; }
+</style>
+<rect x="0.5" y="0.5" width="759" height="405" rx="14" fill="#0d1117" stroke="#30363d"/>
+<rect x="28" y="28" width="64" height="5" rx="2.5" fill="url(#g)"/>
+<text x="28" y="56" class="t">Featured Projects</text>
+<text x="732" y="56" class="sub" text-anchor="end">what I’m building on GitHub</text>
+<rect x="28.0" y="58.0" width="344.0" height="96" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="44.0" y="84.0" class="repo">maestro</text>
+<text x="44.0" y="104.0" class="desc">Maestro spawns and monitors multiple AI providers</text>
+<text x="44.0" y="120.0" class="desc">sessions working on the same project…</text>
+<circle cx="49.0" cy="136.0" r="5" fill="#DEA584"/>
+<text x="60.0" y="140.0" class="meta">Rust</text>
+<text x="104.0" y="140.0" class="meta">★ 29</text>
+<rect x="388.0" y="58.0" width="344.0" height="96" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="404.0" y="84.0" class="repo">copyrfid</text>
+<text x="404.0" y="104.0" class="desc">This project is designed for the M5StickC Plus, a</text>
+<text x="404.0" y="120.0" class="desc">portable and versatile ESP32-based development ki…</text>
+<circle cx="409.0" cy="136.0" r="5" fill="#F34B7D"/>
+<text x="420.0" y="140.0" class="meta">C++</text>
+<text x="457.0" y="140.0" class="meta">★ 9</text>
+<rect x="28.0" y="170.0" width="344.0" height="96" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="44.0" y="196.0" class="repo">saopaulo-night</text>
+<text x="44.0" y="216.0" class="desc">The theme captures that muted cyberpunk São Paulo</text>
+<text x="44.0" y="232.0" class="desc">aesthetic perfectly - pale neon signs through…</text>
+<circle cx="49.0" cy="248.0" r="5" fill="#3178C6"/>
+<text x="60.0" y="252.0" class="meta">TypeScript</text>
+<text x="146.0" y="252.0" class="meta">★ 2</text>
+<rect x="388.0" y="170.0" width="344.0" height="96" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="404.0" y="196.0" class="repo">discipline.nvim</text>
+<text x="404.0" y="216.0" class="desc">The “discipline” plugin for Neovim — warns you</text>
+<text x="404.0" y="232.0" class="desc">when you’re over-using non-Vim motions.</text>
+<circle cx="409.0" cy="248.0" r="5" fill="#000080"/>
+<text x="420.0" y="252.0" class="meta">Lua</text>
+<text x="457.0" y="252.0" class="meta">★ 1</text>
+<rect x="28.0" y="282.0" width="344.0" height="96" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="44.0" y="308.0" class="repo">lucid-engine</text>
+<text x="44.0" y="328.0" class="desc">Stockfish-powered chess analysis engine for</text>
+<text x="44.0" y="344.0" class="desc">iOS/macOS — Swift Package with C++ interop, game…</text>
+<circle cx="49.0" cy="360.0" r="5" fill="#F34B7D"/>
+<text x="60.0" y="364.0" class="meta">C++</text>
+<text x="97.0" y="364.0" class="meta">★ 1</text>
+<rect x="388.0" y="282.0" width="344.0" height="96" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="404.0" y="308.0" class="repo">tsumiki</text>
+<text x="404.0" y="328.0" class="desc">A SwiftUI component library</text>
+<circle cx="409.0" cy="360.0" r="5" fill="#F05138"/>
+<text x="420.0" y="364.0" class="meta">Swift</text>
+<text x="471.0" y="364.0" class="meta">★ 0</text>
+</svg>

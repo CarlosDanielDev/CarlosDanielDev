@@ -34,6 +34,32 @@ jobs:
           done
           exit 1
 
+  featured:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate featured projects SVG
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          STATS_USER: CarlosDanielDev
+        run: python3 scripts/generate-featured-svg.py
+
+      - name: Commit featured SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-featured.svg
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: update featured SVG [skip ci]"
+          for i in $(seq 1 6); do
+            git pull --rebase --autostash origin main && git push && exit 0
+            sleep $((RANDOM % 6 + 2))
+          done
+          exit 1
+
   activity:
     runs-on: ubuntu-latest
     permissions:
