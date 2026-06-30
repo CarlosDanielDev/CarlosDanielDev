@@ -15,7 +15,7 @@
 <rect x="0.5" y="0.5" width="759" height="199" rx="14" fill="#0d1117" stroke="#30363d"/>
 <line x1="253" y1="36" x2="253" y2="164" stroke="#30363d"/>
 <line x1="507" y1="36" x2="507" y2="164" stroke="#30363d"/>
-<text x="127" y="78" class="big">8,673</text>
+<text x="127" y="78" class="big">8,672</text>
 <text x="127" y="104" class="lbl">Total Contributions</text>
 <text x="127" y="124" class="rng">All time</text>
 <circle cx="380" cy="74" r="34" fill="none" stroke="url(#ring)" stroke-width="4"/>
