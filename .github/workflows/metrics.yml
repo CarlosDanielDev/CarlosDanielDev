@@ -91,16 +91,26 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-streak.svg
-          user: CarlosDanielDev
-          template: classic
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          committer_message: "chore: update github-streak.svg [skip ci]"
+      - uses: actions/checkout@v4
+
+      - name: Generate calendar SVG
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          STATS_USER: CarlosDanielDev
+        run: python3 scripts/generate-calendar-svg.py
+
+      - name: Commit calendar SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-calendar.svg
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: update calendar SVG [skip ci]"
+          for i in $(seq 1 6); do
+            git pull --rebase --autostash origin main && git push && exit 0
+            sleep $((RANDOM % 6 + 2))
+          done
+          exit 1
 
   languages:
     runs-on: ubuntu-latest

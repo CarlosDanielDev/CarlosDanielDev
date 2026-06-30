@@ -104,7 +104,7 @@ journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
 </p>
 
 <p align="center">
-  <img src="github-streak.svg" alt="Contribution Calendar" />
+  <img src="github-calendar.svg" alt="Contribution Calendar" />
 </p>
 
 <br/>
