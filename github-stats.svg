@@ -16,11 +16,11 @@
 <rect x="28" y="28" width="64" height="5" rx="2.5" fill="url(#g)"/>
 <text x="28" y="58" class="title">GitHub Stats</text>
 <text x="28" y="76" class="sub">Carlos Daniel &#183; on GitHub since 2017</text>
-<text x="28.0" y="104.0" class="num">7,081</text>
+<text x="28.0" y="104.0" class="num">6,229</text>
 <text x="28.0" y="124.0" class="lbl">Commits</text>
 <text x="262.7" y="104.0" class="num">837</text>
 <text x="262.7" y="124.0" class="lbl">Pull Requests</text>
-<text x="497.3" y="104.0" class="num">103</text>
+<text x="497.3" y="104.0" class="num">183</text>
 <text x="497.3" y="124.0" class="lbl">PRs Reviewed</text>
 <text x="28.0" y="182.0" class="num">1,218</text>
 <text x="28.0" y="202.0" class="lbl">Issues Opened</text>
