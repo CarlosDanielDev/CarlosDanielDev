@@ -9,7 +9,7 @@
 </a>
 
 <h2 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=70A5FD&center=true&vCenter=true&width=620&lines=Hey%2C+I'm+Carlos+Daniel+%F0%9F%91%8B;Software+Developer+%26+Indie+Maker;8%2B+Years+Building+Software;PHP+CRUDs+%E2%86%92+Mobile+%E2%86%92+Hardware+%E2%86%92+Indie" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=70A5FD&center=true&vCenter=true&width=620&lines=8%2B+Years+Building+Software;Indie+iOS+Maker+on+the+App+Store;PHP+CRUDs+%E2%86%92+Mobile+%E2%86%92+Hardware+%E2%86%92+Indie;TDD+%26+Clean+Architecture" alt="Typing SVG" />
 </h2>
 
 <p align="center">
