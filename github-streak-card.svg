@@ -15,14 +15,14 @@
 <rect x="0.5" y="0.5" width="759" height="199" rx="14" fill="#0d1117" stroke="#30363d"/>
 <line x1="253" y1="36" x2="253" y2="164" stroke="#30363d"/>
 <line x1="507" y1="36" x2="507" y2="164" stroke="#30363d"/>
-<text x="127" y="78" class="big">8,675</text>
+<text x="127" y="78" class="big">8,866</text>
 <text x="127" y="104" class="lbl">Total Contributions</text>
 <text x="127" y="124" class="rng">All time</text>
 <circle cx="380" cy="74" r="34" fill="none" stroke="url(#ring)" stroke-width="4"/>
-<text x="380" y="84" class="fire">149</text>
+<text x="380" y="84" class="fire">153</text>
 <text x="380" y="134" class="lbl">Current Streak</text>
-<text x="380" y="152" class="rng">Feb 02, 2026 - Jun 30, 2026</text>
-<text x="633" y="78" class="big">149</text>
+<text x="380" y="152" class="rng">Feb 02, 2026 - Jul 04, 2026</text>
+<text x="633" y="78" class="big">153</text>
 <text x="633" y="104" class="lbl">Longest Streak</text>
-<text x="633" y="124" class="rng">Feb 02, 2026 - Jun 30, 2026</text>
+<text x="633" y="124" class="rng">Feb 02, 2026 - Jul 04, 2026</text>
 </svg>
