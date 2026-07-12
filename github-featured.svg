@@ -51,7 +51,7 @@
 <text x="44.0" y="344.0" class="desc">iOS/macOS — Swift Package with C++ interop, game…</text>
 <circle cx="49.0" cy="360.0" r="5" fill="#F34B7D"/>
 <text x="60.0" y="364.0" class="meta">C++</text>
-<text x="97.0" y="364.0" class="meta">★ 1</text>
+<text x="97.0" y="364.0" class="meta">★ 2</text>
 <rect x="388.0" y="282.0" width="344.0" height="96" rx="10" fill="#161b22" stroke="#30363d"/>
 <text x="404.0" y="308.0" class="repo">tsumiki</text>
 <text x="404.0" y="328.0" class="desc">A SwiftUI component library</text>
