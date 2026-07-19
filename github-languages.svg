@@ -16,20 +16,20 @@
 <text x="28" y="58" class="t">Most Used Languages</text>
 <text x="28" y="76" class="sub">across all repos (public + private, excl. forks)</text>
 <g transform="translate(28, 64)">
-  <rect x="0.0" y="0" width="207.1" height="14" rx="7 0 0 7" fill="#F05138"/>
-  <rect x="207.1" y="0" width="169.4" height="14" rx="0" fill="#DEA584"/>
-  <rect x="376.5" y="0" width="153.3" height="14" rx="0" fill="#3178C6"/>
-  <rect x="529.9" y="0" width="136.8" height="14" rx="0" fill="#F1E05A"/>
-  <rect x="666.7" y="0" width="20.5" height="14" rx="0" fill="#F34B7D"/>
-  <rect x="687.2" y="0" width="4.0" height="14" rx="0" fill="#B07219"/>
-  <rect x="691.2" y="0" width="4.0" height="14" rx="0" fill="#3572A5"/>
-  <rect x="695.2" y="0" width="4.0" height="14" rx="0 7 7 0" fill="#4F5D95"/>
+  <rect x="0.0" y="0" width="208.3" height="14" rx="7 0 0 7" fill="#F05138"/>
+  <rect x="208.3" y="0" width="169.0" height="14" rx="0" fill="#DEA584"/>
+  <rect x="377.3" y="0" width="153.0" height="14" rx="0" fill="#3178C6"/>
+  <rect x="530.3" y="0" width="136.5" height="14" rx="0" fill="#F1E05A"/>
+  <rect x="666.8" y="0" width="20.5" height="14" rx="0" fill="#F34B7D"/>
+  <rect x="687.3" y="0" width="4.0" height="14" rx="0" fill="#B07219"/>
+  <rect x="691.3" y="0" width="4.0" height="14" rx="0" fill="#3572A5"/>
+  <rect x="695.3" y="0" width="4.0" height="14" rx="0 7 7 0" fill="#4F5D95"/>
   <circle cx="6.0" cy="40" r="6" fill="#F05138"/>
-  <text x="20.0" y="45" class="l">Swift <tspan fill="#6e7681">29.4%</tspan></text>
+  <text x="20.0" y="45" class="l">Swift <tspan fill="#6e7681">29.6%</tspan></text>
   <circle cx="358.0" cy="40" r="6" fill="#DEA584"/>
-  <text x="372.0" y="45" class="l">Rust <tspan fill="#6e7681">24.1%</tspan></text>
+  <text x="372.0" y="45" class="l">Rust <tspan fill="#6e7681">24.0%</tspan></text>
   <circle cx="6.0" cy="70" r="6" fill="#3178C6"/>
-  <text x="20.0" y="75" class="l">TypeScript <tspan fill="#6e7681">21.8%</tspan></text>
+  <text x="20.0" y="75" class="l">TypeScript <tspan fill="#6e7681">21.7%</tspan></text>
   <circle cx="358.0" cy="70" r="6" fill="#F1E05A"/>
   <text x="372.0" y="75" class="l">JavaScript <tspan fill="#6e7681">19.4%</tspan></text>
   <circle cx="6.0" cy="100" r="6" fill="#F34B7D"/>
