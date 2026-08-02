@@ -16,9 +16,9 @@
 <text x="28" y="58" class="t">Most Used Languages</text>
 <text x="28" y="76" class="sub">across all repos (public + private, excl. forks)</text>
 <g transform="translate(28, 64)">
-  <rect x="0.0" y="0" width="206.8" height="14" rx="7 0 0 7" fill="#F05138"/>
-  <rect x="206.8" y="0" width="167.4" height="14" rx="0" fill="#DEA584"/>
-  <rect x="374.3" y="0" width="155.4" height="14" rx="0" fill="#3178C6"/>
+  <rect x="0.0" y="0" width="207.0" height="14" rx="7 0 0 7" fill="#F05138"/>
+  <rect x="207.0" y="0" width="167.4" height="14" rx="0" fill="#DEA584"/>
+  <rect x="374.4" y="0" width="155.3" height="14" rx="0" fill="#3178C6"/>
   <rect x="529.7" y="0" width="137.3" height="14" rx="0" fill="#F1E05A"/>
   <rect x="667.0" y="0" width="20.3" height="14" rx="0" fill="#F34B7D"/>
   <rect x="687.3" y="0" width="4.0" height="14" rx="0" fill="#B07219"/>
