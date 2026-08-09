@@ -16,13 +16,13 @@
 <rect x="28" y="28" width="64" height="5" rx="2.5" fill="url(#g)"/>
 <text x="28" y="58" class="title">GitHub Stats</text>
 <text x="28" y="76" class="sub">Carlos Daniel &#183; on GitHub since 2017</text>
-<text x="145.3" y="104.0" class="num">6,670</text>
+<text x="145.3" y="104.0" class="num">6,706</text>
 <text x="145.3" y="124.0" class="lbl">Commits</text>
-<text x="380.0" y="104.0" class="num">953</text>
+<text x="380.0" y="104.0" class="num">977</text>
 <text x="380.0" y="124.0" class="lbl">Pull Requests</text>
-<text x="614.7" y="104.0" class="num">183</text>
+<text x="614.7" y="104.0" class="num">184</text>
 <text x="614.7" y="124.0" class="lbl">PRs Reviewed</text>
-<text x="145.3" y="182.0" class="num">1,395</text>
+<text x="145.3" y="182.0" class="num">1,400</text>
 <text x="145.3" y="202.0" class="lbl">Issues Opened</text>
 <text x="380.0" y="182.0" class="num">17</text>
 <text x="380.0" y="202.0" class="lbl">Repos Contributed</text>
@@ -32,6 +32,6 @@
 <text x="145.3" y="280.0" class="lbl">Followers</text>
 <text x="380.0" y="260.0" class="num">63</text>
 <text x="380.0" y="280.0" class="lbl">Following</text>
-<text x="614.7" y="260.0" class="num">160</text>
+<text x="614.7" y="260.0" class="num">161</text>
 <text x="614.7" y="280.0" class="lbl">Repos Starred</text>
 </svg>
