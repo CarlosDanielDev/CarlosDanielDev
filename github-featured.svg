@@ -23,7 +23,7 @@
 <text x="44.0" y="120.0" class="desc">sessions working on the same project…</text>
 <circle cx="49.0" cy="136.0" r="5" fill="#DEA584"/>
 <text x="60.0" y="140.0" class="meta">Rust</text>
-<text x="104.0" y="140.0" class="meta">★ 29</text>
+<text x="104.0" y="140.0" class="meta">★ 31</text>
 <rect x="388.0" y="58.0" width="344.0" height="96" rx="10" fill="#161b22" stroke="#30363d"/>
 <text x="404.0" y="84.0" class="repo">copyrfid</text>
 <text x="404.0" y="104.0" class="desc">This project is designed for the M5StickC Plus, a</text>
