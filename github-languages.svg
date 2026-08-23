@@ -16,29 +16,29 @@
 <text x="28" y="58" class="t">Most Used Languages</text>
 <text x="28" y="76" class="sub">across all repos (public + private, excl. forks)</text>
 <g transform="translate(28, 64)">
-  <rect x="0.0" y="0" width="204.0" height="14" rx="7 0 0 7" fill="#3178C6"/>
-  <rect x="204.0" y="0" width="188.1" height="14" rx="0" fill="#F05138"/>
-  <rect x="392.2" y="0" width="152.3" height="14" rx="0" fill="#DEA584"/>
-  <rect x="544.5" y="0" width="124.2" height="14" rx="0" fill="#F1E05A"/>
-  <rect x="668.7" y="0" width="18.3" height="14" rx="0" fill="#F34B7D"/>
-  <rect x="687.0" y="0" width="4.0" height="14" rx="0" fill="#3572A5"/>
-  <rect x="691.0" y="0" width="4.0" height="14" rx="0" fill="#B07219"/>
-  <rect x="695.0" y="0" width="4.0" height="14" rx="0 7 7 0" fill="#4F5D95"/>
+  <rect x="0.0" y="0" width="197.6" height="14" rx="7 0 0 7" fill="#3178C6"/>
+  <rect x="197.6" y="0" width="182.2" height="14" rx="0" fill="#F05138"/>
+  <rect x="379.8" y="0" width="149.2" height="14" rx="0" fill="#DEA584"/>
+  <rect x="528.9" y="0" width="124.5" height="14" rx="0" fill="#F1E05A"/>
+  <rect x="653.4" y="0" width="18.2" height="14" rx="0" fill="#3572A5"/>
+  <rect x="671.7" y="0" width="17.8" height="14" rx="0" fill="#F34B7D"/>
+  <rect x="689.4" y="0" width="4.0" height="14" rx="0" fill="#00ADD8"/>
+  <rect x="693.4" y="0" width="4.0" height="14" rx="0 7 7 0" fill="#B07219"/>
   <circle cx="6.0" cy="40" r="6" fill="#3178C6"/>
-  <text x="20.0" y="45" class="l">TypeScript <tspan fill="#6e7681">29.0%</tspan></text>
+  <text x="20.0" y="45" class="l">TypeScript <tspan fill="#6e7681">28.1%</tspan></text>
   <circle cx="358.0" cy="40" r="6" fill="#F05138"/>
-  <text x="372.0" y="45" class="l">Swift <tspan fill="#6e7681">26.7%</tspan></text>
+  <text x="372.0" y="45" class="l">Swift <tspan fill="#6e7681">25.9%</tspan></text>
   <circle cx="6.0" cy="70" r="6" fill="#DEA584"/>
-  <text x="20.0" y="75" class="l">Rust <tspan fill="#6e7681">21.6%</tspan></text>
+  <text x="20.0" y="75" class="l">Rust <tspan fill="#6e7681">21.2%</tspan></text>
   <circle cx="358.0" cy="70" r="6" fill="#F1E05A"/>
-  <text x="372.0" y="75" class="l">JavaScript <tspan fill="#6e7681">17.6%</tspan></text>
-  <circle cx="6.0" cy="100" r="6" fill="#F34B7D"/>
-  <text x="20.0" y="105" class="l">C++ <tspan fill="#6e7681">2.6%</tspan></text>
-  <circle cx="358.0" cy="100" r="6" fill="#3572A5"/>
-  <text x="372.0" y="105" class="l">Python <tspan fill="#6e7681">0.5%</tspan></text>
-  <circle cx="6.0" cy="130" r="6" fill="#B07219"/>
-  <text x="20.0" y="135" class="l">Java <tspan fill="#6e7681">0.5%</tspan></text>
-  <circle cx="358.0" cy="130" r="6" fill="#4F5D95"/>
-  <text x="372.0" y="135" class="l">PHP <tspan fill="#6e7681">0.4%</tspan></text>
+  <text x="372.0" y="75" class="l">JavaScript <tspan fill="#6e7681">17.7%</tspan></text>
+  <circle cx="6.0" cy="100" r="6" fill="#3572A5"/>
+  <text x="20.0" y="105" class="l">Python <tspan fill="#6e7681">2.6%</tspan></text>
+  <circle cx="358.0" cy="100" r="6" fill="#F34B7D"/>
+  <text x="372.0" y="105" class="l">C++ <tspan fill="#6e7681">2.5%</tspan></text>
+  <circle cx="6.0" cy="130" r="6" fill="#00ADD8"/>
+  <text x="20.0" y="135" class="l">Go <tspan fill="#6e7681">0.5%</tspan></text>
+  <circle cx="358.0" cy="130" r="6" fill="#B07219"/>
+  <text x="372.0" y="135" class="l">Java <tspan fill="#6e7681">0.5%</tspan></text>
 </g>
 </svg>
