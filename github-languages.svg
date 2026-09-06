@@ -16,24 +16,24 @@
 <text x="28" y="58" class="t">Most Used Languages</text>
 <text x="28" y="76" class="sub">across all repos (public + private, excl. forks)</text>
 <g transform="translate(28, 64)">
-  <rect x="0.0" y="0" width="190.3" height="14" rx="7 0 0 7" fill="#3178C6"/>
-  <rect x="190.3" y="0" width="175.5" height="14" rx="0" fill="#F05138"/>
-  <rect x="365.8" y="0" width="146.7" height="14" rx="0" fill="#DEA584"/>
-  <rect x="512.5" y="0" width="123.2" height="14" rx="0" fill="#F1E05A"/>
-  <rect x="635.7" y="0" width="36.4" height="14" rx="0" fill="#3572A5"/>
-  <rect x="672.1" y="0" width="17.1" height="14" rx="0" fill="#F34B7D"/>
+  <rect x="0.0" y="0" width="189.8" height="14" rx="7 0 0 7" fill="#3178C6"/>
+  <rect x="189.8" y="0" width="174.9" height="14" rx="0" fill="#F05138"/>
+  <rect x="364.7" y="0" width="146.2" height="14" rx="0" fill="#DEA584"/>
+  <rect x="510.9" y="0" width="123.1" height="14" rx="0" fill="#F1E05A"/>
+  <rect x="634.0" y="0" width="38.2" height="14" rx="0" fill="#3572A5"/>
+  <rect x="672.2" y="0" width="17.0" height="14" rx="0" fill="#F34B7D"/>
   <rect x="689.2" y="0" width="4.0" height="14" rx="0" fill="#00ADD8"/>
   <rect x="693.2" y="0" width="4.0" height="14" rx="0 7 7 0" fill="#B07219"/>
   <circle cx="6.0" cy="40" r="6" fill="#3178C6"/>
   <text x="20.0" y="45" class="l">TypeScript <tspan fill="#6e7681">27.0%</tspan></text>
   <circle cx="358.0" cy="40" r="6" fill="#F05138"/>
-  <text x="372.0" y="45" class="l">Swift <tspan fill="#6e7681">24.9%</tspan></text>
+  <text x="372.0" y="45" class="l">Swift <tspan fill="#6e7681">24.8%</tspan></text>
   <circle cx="6.0" cy="70" r="6" fill="#DEA584"/>
   <text x="20.0" y="75" class="l">Rust <tspan fill="#6e7681">20.8%</tspan></text>
   <circle cx="358.0" cy="70" r="6" fill="#F1E05A"/>
   <text x="372.0" y="75" class="l">JavaScript <tspan fill="#6e7681">17.5%</tspan></text>
   <circle cx="6.0" cy="100" r="6" fill="#3572A5"/>
-  <text x="20.0" y="105" class="l">Python <tspan fill="#6e7681">5.2%</tspan></text>
+  <text x="20.0" y="105" class="l">Python <tspan fill="#6e7681">5.4%</tspan></text>
   <circle cx="358.0" cy="100" r="6" fill="#F34B7D"/>
   <text x="372.0" y="105" class="l">C++ <tspan fill="#6e7681">2.4%</tspan></text>
   <circle cx="6.0" cy="130" r="6" fill="#00ADD8"/>
