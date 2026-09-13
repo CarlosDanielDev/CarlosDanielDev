@@ -16,16 +16,16 @@
 <text x="28" y="58" class="t">Most Used Languages</text>
 <text x="28" y="76" class="sub">across all repos (public + private, excl. forks)</text>
 <g transform="translate(28, 64)">
-  <rect x="0.0" y="0" width="189.8" height="14" rx="7 0 0 7" fill="#3178C6"/>
-  <rect x="189.8" y="0" width="174.9" height="14" rx="0" fill="#F05138"/>
-  <rect x="364.7" y="0" width="146.2" height="14" rx="0" fill="#DEA584"/>
-  <rect x="510.9" y="0" width="123.1" height="14" rx="0" fill="#F1E05A"/>
-  <rect x="634.0" y="0" width="38.2" height="14" rx="0" fill="#3572A5"/>
+  <rect x="0.0" y="0" width="189.7" height="14" rx="7 0 0 7" fill="#3178C6"/>
+  <rect x="189.7" y="0" width="174.8" height="14" rx="0" fill="#F05138"/>
+  <rect x="364.6" y="0" width="146.2" height="14" rx="0" fill="#DEA584"/>
+  <rect x="510.8" y="0" width="123.1" height="14" rx="0" fill="#F1E05A"/>
+  <rect x="633.9" y="0" width="38.3" height="14" rx="0" fill="#3572A5"/>
   <rect x="672.2" y="0" width="17.0" height="14" rx="0" fill="#F34B7D"/>
   <rect x="689.2" y="0" width="4.0" height="14" rx="0" fill="#00ADD8"/>
   <rect x="693.2" y="0" width="4.0" height="14" rx="0 7 7 0" fill="#B07219"/>
   <circle cx="6.0" cy="40" r="6" fill="#3178C6"/>
-  <text x="20.0" y="45" class="l">TypeScript <tspan fill="#6e7681">27.0%</tspan></text>
+  <text x="20.0" y="45" class="l">TypeScript <tspan fill="#6e7681">26.9%</tspan></text>
   <circle cx="358.0" cy="40" r="6" fill="#F05138"/>
   <text x="372.0" y="45" class="l">Swift <tspan fill="#6e7681">24.8%</tspan></text>
   <circle cx="6.0" cy="70" r="6" fill="#DEA584"/>
