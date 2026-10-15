@@ -214,7 +214,7 @@ journey: PHP CRUDs (2017) → Full Stack → Mobile → Hardware → Indie Maker
 <br/>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=CarlosDanielDev&color=70A5FD&style=flat-square&label=Profile+Views" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=CarlosDanielDev&color=70A5FD&style=flat-square&label=Profile+Views&v=2" alt="Profile views"/>
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=12,20,24&section=footer" alt="" />
