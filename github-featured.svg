@@ -19,7 +19,7 @@
 <text x="732" y="56" class="sub" text-anchor="end">what I’m building on GitHub</text>
 <rect x="28.0" y="58.0" width="344.0" height="96" rx="10" fill="#161b22" stroke="#30363d"/>
 <text x="44.0" y="84.0" class="repo">maestro</text>
-<text x="44.0" y="104.0" class="desc">Maestro spawns and monitors multiple AI providers</text>
+<text x="44.0" y="104.0" class="desc">Maestro spawns and monitors multiple AI agent</text>
 <text x="44.0" y="120.0" class="desc">sessions working on the same project…</text>
 <circle cx="49.0" cy="136.0" r="5" fill="#DEA584"/>
 <text x="60.0" y="140.0" class="meta">Rust</text>
