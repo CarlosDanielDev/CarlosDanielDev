@@ -17,24 +17,24 @@
 </style>
 <rect x="0.5" y="0.5" width="759" height="229" rx="14" fill="#0d1117" stroke="#30363d"/>
 <text x="44" y="34" class="title">Contribution Activity</text>
-<text x="44" y="50" class="sub">10,115 contributions in the last 12 months</text>
+<text x="44" y="50" class="sub">10,535 contributions in the last 12 months</text>
 <line x1="44" y1="96" x2="736" y2="96" stroke="#30363d" stroke-opacity="0.5"/>
 <line x1="44" y1="127" x2="736" y2="127" stroke="#30363d" stroke-opacity="0.5"/>
 <line x1="44" y1="158" x2="736" y2="158" stroke="#30363d" stroke-opacity="0.5"/>
-<path d="M 44.0 188.8 C 54.5 188.1 85.9 189.9 106.9 184.8 C 127.9 179.6 148.8 171.2 169.8 158.1 C 190.8 144.9 211.8 120.5 232.7 105.9 C 253.7 91.3 274.7 68.8 295.6 70.7 C 316.6 72.6 337.6 106.0 358.5 117.2 C 379.5 128.5 400.5 133.7 421.5 138.3 C 442.4 143.0 463.4 151.3 484.4 145.2 C 505.3 139.1 526.3 109.5 547.3 101.8 C 568.2 94.1 589.2 105.5 610.2 99.2 C 631.2 92.9 652.1 48.9 673.1 64.0 C 694.1 79.1 725.5 169.0 736.0 190.0 L 736.0 190.0 L 44.0 190.0 Z" fill="url(#area)"/>
-<path d="M 44.0 188.8 C 54.5 188.1 85.9 189.9 106.9 184.8 C 127.9 179.6 148.8 171.2 169.8 158.1 C 190.8 144.9 211.8 120.5 232.7 105.9 C 253.7 91.3 274.7 68.8 295.6 70.7 C 316.6 72.6 337.6 106.0 358.5 117.2 C 379.5 128.5 400.5 133.7 421.5 138.3 C 442.4 143.0 463.4 151.3 484.4 145.2 C 505.3 139.1 526.3 109.5 547.3 101.8 C 568.2 94.1 589.2 105.5 610.2 99.2 C 631.2 92.9 652.1 48.9 673.1 64.0 C 694.1 79.1 725.5 169.0 736.0 190.0" fill="none" stroke="url(#stroke)" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 44.0 188.8 C 54.5 188.1 85.9 189.9 106.9 184.8 C 127.9 179.7 148.8 171.3 169.8 158.2 C 190.8 145.1 211.8 120.8 232.7 106.3 C 253.7 91.8 274.7 69.4 295.6 71.3 C 316.6 73.1 337.6 106.3 358.5 117.6 C 379.5 128.8 400.5 133.9 421.5 138.6 C 442.4 143.2 463.4 151.5 484.4 145.4 C 505.3 139.3 526.3 109.8 547.3 102.2 C 568.2 94.6 589.2 106.0 610.2 99.6 C 631.2 93.2 652.1 53.8 673.1 64.0 C 694.1 74.2 725.5 144.8 736.0 161.0 L 736.0 190.0 L 44.0 190.0 Z" fill="url(#area)"/>
+<path d="M 44.0 188.8 C 54.5 188.1 85.9 189.9 106.9 184.8 C 127.9 179.7 148.8 171.3 169.8 158.2 C 190.8 145.1 211.8 120.8 232.7 106.3 C 253.7 91.8 274.7 69.4 295.6 71.3 C 316.6 73.1 337.6 106.3 358.5 117.6 C 379.5 128.8 400.5 133.9 421.5 138.6 C 442.4 143.2 463.4 151.5 484.4 145.4 C 505.3 139.3 526.3 109.8 547.3 102.2 C 568.2 94.6 589.2 106.0 610.2 99.6 C 631.2 93.2 652.1 53.8 673.1 64.0 C 694.1 74.2 725.5 144.8 736.0 161.0" fill="none" stroke="url(#stroke)" stroke-width="2.5" stroke-linecap="round"/>
 <circle cx="44.0" cy="188.8" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
 <circle cx="106.9" cy="184.8" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
-<circle cx="169.8" cy="158.1" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
-<circle cx="232.7" cy="105.9" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
-<circle cx="295.6" cy="70.7" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
-<circle cx="358.5" cy="117.2" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
-<circle cx="421.5" cy="138.3" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
-<circle cx="484.4" cy="145.2" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
-<circle cx="547.3" cy="101.8" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
-<circle cx="610.2" cy="99.2" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
+<circle cx="169.8" cy="158.2" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
+<circle cx="232.7" cy="106.3" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
+<circle cx="295.6" cy="71.3" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
+<circle cx="358.5" cy="117.6" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
+<circle cx="421.5" cy="138.6" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
+<circle cx="484.4" cy="145.4" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
+<circle cx="547.3" cy="102.2" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
+<circle cx="610.2" cy="99.6" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
 <circle cx="673.1" cy="64.0" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
-<circle cx="736.0" cy="190.0" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
+<circle cx="736.0" cy="161.0" r="2.5" fill="#0d1117" stroke="#70A5FD" stroke-width="1.5"/>
 <text x="44.0" y="214" class="ax">Dec</text>
 <text x="106.9" y="214" class="ax">Jan</text>
 <text x="169.8" y="214" class="ax">Feb</text>
